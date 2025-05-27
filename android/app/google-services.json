@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "724770420804",
+    "project_id": "cairo-government",
+    "storage_bucket": "cairo-government.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724770420804:android:68b151fd4bf26ff8fbe411",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCrJHQwsBLEQalTmeINCitw79xYEhjeNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

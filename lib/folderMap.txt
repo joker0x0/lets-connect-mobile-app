@@ -1,0 +1,43 @@
+lib/
+├── assets/                    # Folder for images, fonts, and other assets
+│   ├── images/                # Image assets
+│   ├── fonts/                 # Custom fonts
+├── constants/                 # Constants for your app (like color schemes, text styles)
+│   ├── colors.dart            # Define your app’s colors
+│   ├── strings.dart           # Common strings (like app name, etc.)
+│   └── text_styles.dart       # Text styles for the app
+├── models/                    # Model classes to represent data structures
+│   ├── announcement.dart      # Model for announcements
+│   ├── poll.dart              # Model for polls
+│   ├── message.dart           # Model for messages
+│   └── report.dart            # Model for reports
+├── screens/                   # All the screens of your app
+│   ├── splash_screen.dart     # Splash screen
+│   ├── login_screen.dart      # Login screen
+│   ├── home_screen.dart       # Home screen
+│   ├── announcement_screen.dart # Announcement detail screen
+│   ├── poll_screen.dart       # Poll voting screen
+│   ├── messages_screen.dart   # Message screen
+│   ├── report_screen.dart     # Report problem screen
+│   ├── admin_screen.dart      # Admin panel (government screen)
+│   └── profile_screen.dart    # Profile screen for users (citizens, advertisers)
+├── widgets/                   # Reusable widgets
+│   ├── announcement_tile.dart # Widget for displaying announcement previews
+│   ├── poll_option.dart       # Widget for each poll option
+│   ├── message_card.dart      # Widget for displaying messages
+│   └── custom_button.dart     # Reusable custom button widget
+├── services/                  # Logic and services like API calls, Firebase integration
+│   ├── auth_service.dart      # User authentication logic
+│   ├── firebase_service.dart  # Firebase database operations (CRUD)
+│   ├── notification_service.dart # Push notifications logic
+│   └── report_service.dart    # Report-related logic
+├── providers/                 # State management (e.g., using Provider or Riverpod)
+│   ├── user_provider.dart     # User-related state (authentication, user role)
+│   ├── announcement_provider.dart # State for managing announcements
+│   └── poll_provider.dart     # State for managing polls
+├── utils/                     # Utility functions and helpers
+│   ├── date_utils.dart        # Helper functions for date formatting
+│   ├── location_utils.dart    # Helper functions for location mapping
+│   └── form_validation.dart   # Form validation helpers
+├── main.dart                  # Main entry point of the application
+└── routes.dart                # All app routes and navigation setup
